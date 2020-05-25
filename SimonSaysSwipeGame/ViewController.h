@@ -8,8 +8,28 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    
+    NSTimer *gameTimer;
+    NSTimer *simonTimer;
+    
+    int gameMode;
+    int timeValue;
+    int scoreValue;
+    
+}
 
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel *simonLabel;
+@property (weak, nonatomic) IBOutlet UIButton *startButton;
+
+@property (nonatomic, strong) UISwipeGestureRecognizer *swipeLeft;
+@property (nonatomic, strong) UISwipeGestureRecognizer *swipeRight;
+@property (nonatomic, strong) UISwipeGestureRecognizer *swipeUp;
+@property (nonatomic, strong) UISwipeGestureRecognizer *swipeDown;
+
+- (IBAction)startGame:(id)sender;
 
 @end
 
