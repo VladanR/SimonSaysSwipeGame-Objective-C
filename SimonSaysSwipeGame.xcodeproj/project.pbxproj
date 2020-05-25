@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC71FC7E247C10A400AC8B9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71FC7D247C10A400AC8B9B /* AppDelegate.m */; };
+		BC71FC81247C10A400AC8B9B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71FC80247C10A400AC8B9B /* SceneDelegate.m */; };
+		BC71FC84247C10A400AC8B9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71FC83247C10A400AC8B9B /* ViewController.m */; };
+		BC71FC87247C10A400AC8B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC71FC85247C10A400AC8B9B /* Main.storyboard */; };
+		BC71FC8A247C10A400AC8B9B /* SimonSaysSwipeGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC71FC88247C10A400AC8B9B /* SimonSaysSwipeGame.xcdatamodeld */; };
+		BC71FC8C247C10A500AC8B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC71FC8B247C10A500AC8B9B /* Assets.xcassets */; };
+		BC71FC8F247C10A500AC8B9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC71FC8D247C10A500AC8B9B /* LaunchScreen.storyboard */; };
+		BC71FC92247C10A500AC8B9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71FC91247C10A500AC8B9B /* main.m */; };
+		BC71FC9C247C10A600AC8B9B /* SimonSaysSwipeGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71FC9B247C10A600AC8B9B /* SimonSaysSwipeGameTests.m */; };
+		BC71FCA7247C10A600AC8B9B /* SimonSaysSwipeGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71FCA6247C10A600AC8B9B /* SimonSaysSwipeGameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC71FC98247C10A600AC8B9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC71FC71247C10A400AC8B9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC71FC78247C10A400AC8B9B;
+			remoteInfo = SimonSaysSwipeGame;
+		};
+		BC71FCA3247C10A600AC8B9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC71FC71247C10A400AC8B9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC71FC78247C10A400AC8B9B;
+			remoteInfo = SimonSaysSwipeGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC71FC79247C10A400AC8B9B /* SimonSaysSwipeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonSaysSwipeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC71FC7C247C10A400AC8B9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC71FC7D247C10A400AC8B9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC71FC7F247C10A400AC8B9B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BC71FC80247C10A400AC8B9B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BC71FC82247C10A400AC8B9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC71FC83247C10A400AC8B9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC71FC86247C10A400AC8B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC71FC89247C10A400AC8B9B /* SimonSaysSwipeGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimonSaysSwipeGame.xcdatamodel; sourceTree = "<group>"; };
+		BC71FC8B247C10A500AC8B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC71FC8E247C10A500AC8B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC71FC90247C10A500AC8B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC71FC91247C10A500AC8B9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC71FC97247C10A600AC8B9B /* SimonSaysSwipeGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimonSaysSwipeGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC71FC9B247C10A600AC8B9B /* SimonSaysSwipeGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimonSaysSwipeGameTests.m; sourceTree = "<group>"; };
+		BC71FC9D247C10A600AC8B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC71FCA2247C10A600AC8B9B /* SimonSaysSwipeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimonSaysSwipeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC71FCA6247C10A600AC8B9B /* SimonSaysSwipeGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimonSaysSwipeGameUITests.m; sourceTree = "<group>"; };
+		BC71FCA8247C10A600AC8B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC71FC76247C10A400AC8B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC71FC94247C10A600AC8B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC71FC9F247C10A600AC8B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC71FC70247C10A400AC8B9B = {
+			isa = PBXGroup;
+			children = (
+				BC71FC7B247C10A400AC8B9B /* SimonSaysSwipeGame */,
+				BC71FC9A247C10A600AC8B9B /* SimonSaysSwipeGameTests */,
+				BC71FCA5247C10A600AC8B9B /* SimonSaysSwipeGameUITests */,
+				BC71FC7A247C10A400AC8B9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC71FC7A247C10A400AC8B9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC71FC79247C10A400AC8B9B /* SimonSaysSwipeGame.app */,
+				BC71FC97247C10A600AC8B9B /* SimonSaysSwipeGameTests.xctest */,
+				BC71FCA2247C10A600AC8B9B /* SimonSaysSwipeGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC71FC7B247C10A400AC8B9B /* SimonSaysSwipeGame */ = {
+			isa = PBXGroup;
+			children = (
+				BC71FC7C247C10A400AC8B9B /* AppDelegate.h */,
+				BC71FC7D247C10A400AC8B9B /* AppDelegate.m */,
+				BC71FC7F247C10A400AC8B9B /* SceneDelegate.h */,
+				BC71FC80247C10A400AC8B9B /* SceneDelegate.m */,
+				BC71FC82247C10A400AC8B9B /* ViewController.h */,
+				BC71FC83247C10A400AC8B9B /* ViewController.m */,
+				BC71FC85247C10A400AC8B9B /* Main.storyboard */,
+				BC71FC8B247C10A500AC8B9B /* Assets.xcassets */,
+				BC71FC8D247C10A500AC8B9B /* LaunchScreen.storyboard */,
+				BC71FC90247C10A500AC8B9B /* Info.plist */,
+				BC71FC91247C10A500AC8B9B /* main.m */,
+				BC71FC88247C10A400AC8B9B /* SimonSaysSwipeGame.xcdatamodeld */,
+			);
+			path = SimonSaysSwipeGame;
+			sourceTree = "<group>";
+		};
+		BC71FC9A247C10A600AC8B9B /* SimonSaysSwipeGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC71FC9B247C10A600AC8B9B /* SimonSaysSwipeGameTests.m */,
+				BC71FC9D247C10A600AC8B9B /* Info.plist */,
+			);
+			path = SimonSaysSwipeGameTests;
+			sourceTree = "<group>";
+		};
+		BC71FCA5247C10A600AC8B9B /* SimonSaysSwipeGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC71FCA6247C10A600AC8B9B /* SimonSaysSwipeGameUITests.m */,
+				BC71FCA8247C10A600AC8B9B /* Info.plist */,
+			);
+			path = SimonSaysSwipeGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC71FC78247C10A400AC8B9B /* SimonSaysSwipeGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC71FCAB247C10A600AC8B9B /* Build configuration list for PBXNativeTarget "SimonSaysSwipeGame" */;
+			buildPhases = (
+				BC71FC75247C10A400AC8B9B /* Sources */,
+				BC71FC76247C10A400AC8B9B /* Frameworks */,
+				BC71FC77247C10A400AC8B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimonSaysSwipeGame;
+			productName = SimonSaysSwipeGame;
+			productReference = BC71FC79247C10A400AC8B9B /* SimonSaysSwipeGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC71FC96247C10A600AC8B9B /* SimonSaysSwipeGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC71FCAE247C10A600AC8B9B /* Build configuration list for PBXNativeTarget "SimonSaysSwipeGameTests" */;
+			buildPhases = (
+				BC71FC93247C10A600AC8B9B /* Sources */,
+				BC71FC94247C10A600AC8B9B /* Frameworks */,
+				BC71FC95247C10A600AC8B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC71FC99247C10A600AC8B9B /* PBXTargetDependency */,
+			);
+			name = SimonSaysSwipeGameTests;
+			productName = SimonSaysSwipeGameTests;
+			productReference = BC71FC97247C10A600AC8B9B /* SimonSaysSwipeGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC71FCA1247C10A600AC8B9B /* SimonSaysSwipeGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC71FCB1247C10A600AC8B9B /* Build configuration list for PBXNativeTarget "SimonSaysSwipeGameUITests" */;
+			buildPhases = (
+				BC71FC9E247C10A600AC8B9B /* Sources */,
+				BC71FC9F247C10A600AC8B9B /* Frameworks */,
+				BC71FCA0247C10A600AC8B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC71FCA4247C10A600AC8B9B /* PBXTargetDependency */,
+			);
+			name = SimonSaysSwipeGameUITests;
+			productName = SimonSaysSwipeGameUITests;
+			productReference = BC71FCA2247C10A600AC8B9B /* SimonSaysSwipeGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC71FC71247C10A400AC8B9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Vladan Randjelovic";
+				TargetAttributes = {
+					BC71FC78247C10A400AC8B9B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BC71FC96247C10A600AC8B9B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BC71FC78247C10A400AC8B9B;
+					};
+					BC71FCA1247C10A600AC8B9B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BC71FC78247C10A400AC8B9B;
+					};
+				};
+			};
+			buildConfigurationList = BC71FC74247C10A400AC8B9B /* Build configuration list for PBXProject "SimonSaysSwipeGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC71FC70247C10A400AC8B9B;
+			productRefGroup = BC71FC7A247C10A400AC8B9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC71FC78247C10A400AC8B9B /* SimonSaysSwipeGame */,
+				BC71FC96247C10A600AC8B9B /* SimonSaysSwipeGameTests */,
+				BC71FCA1247C10A600AC8B9B /* SimonSaysSwipeGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC71FC77247C10A400AC8B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC71FC8F247C10A500AC8B9B /* LaunchScreen.storyboard in Resources */,
+				BC71FC8C247C10A500AC8B9B /* Assets.xcassets in Resources */,
+				BC71FC87247C10A400AC8B9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC71FC95247C10A600AC8B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC71FCA0247C10A600AC8B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC71FC75247C10A400AC8B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC71FC92247C10A500AC8B9B /* main.m in Sources */,
+				BC71FC84247C10A400AC8B9B /* ViewController.m in Sources */,
+				BC71FC7E247C10A400AC8B9B /* AppDelegate.m in Sources */,
+				BC71FC81247C10A400AC8B9B /* SceneDelegate.m in Sources */,
+				BC71FC8A247C10A400AC8B9B /* SimonSaysSwipeGame.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC71FC93247C10A600AC8B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC71FC9C247C10A600AC8B9B /* SimonSaysSwipeGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC71FC9E247C10A600AC8B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC71FCA7247C10A600AC8B9B /* SimonSaysSwipeGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC71FC99247C10A600AC8B9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC71FC78247C10A400AC8B9B /* SimonSaysSwipeGame */;
+			targetProxy = BC71FC98247C10A600AC8B9B /* PBXContainerItemProxy */;
+		};
+		BC71FCA4247C10A600AC8B9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC71FC78247C10A400AC8B9B /* SimonSaysSwipeGame */;
+			targetProxy = BC71FCA3247C10A600AC8B9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC71FC85247C10A400AC8B9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC71FC86247C10A400AC8B9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC71FC8D247C10A500AC8B9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC71FC8E247C10A500AC8B9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC71FCA9247C10A600AC8B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC71FCAA247C10A600AC8B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC71FCAC247C10A600AC8B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NC9458SLG;
+				INFOPLIST_FILE = SimonSaysSwipeGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladan.SimonSaysSwipeGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC71FCAD247C10A600AC8B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NC9458SLG;
+				INFOPLIST_FILE = SimonSaysSwipeGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladan.SimonSaysSwipeGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC71FCAF247C10A600AC8B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NC9458SLG;
+				INFOPLIST_FILE = SimonSaysSwipeGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladan.SimonSaysSwipeGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimonSaysSwipeGame.app/SimonSaysSwipeGame";
+			};
+			name = Debug;
+		};
+		BC71FCB0247C10A600AC8B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NC9458SLG;
+				INFOPLIST_FILE = SimonSaysSwipeGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladan.SimonSaysSwipeGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimonSaysSwipeGame.app/SimonSaysSwipeGame";
+			};
+			name = Release;
+		};
+		BC71FCB2247C10A600AC8B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NC9458SLG;
+				INFOPLIST_FILE = SimonSaysSwipeGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladan.SimonSaysSwipeGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimonSaysSwipeGame;
+			};
+			name = Debug;
+		};
+		BC71FCB3247C10A600AC8B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NC9458SLG;
+				INFOPLIST_FILE = SimonSaysSwipeGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladan.SimonSaysSwipeGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimonSaysSwipeGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC71FC74247C10A400AC8B9B /* Build configuration list for PBXProject "SimonSaysSwipeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC71FCA9247C10A600AC8B9B /* Debug */,
+				BC71FCAA247C10A600AC8B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC71FCAB247C10A600AC8B9B /* Build configuration list for PBXNativeTarget "SimonSaysSwipeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC71FCAC247C10A600AC8B9B /* Debug */,
+				BC71FCAD247C10A600AC8B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC71FCAE247C10A600AC8B9B /* Build configuration list for PBXNativeTarget "SimonSaysSwipeGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC71FCAF247C10A600AC8B9B /* Debug */,
+				BC71FCB0247C10A600AC8B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC71FCB1247C10A600AC8B9B /* Build configuration list for PBXNativeTarget "SimonSaysSwipeGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC71FCB2247C10A600AC8B9B /* Debug */,
+				BC71FCB3247C10A600AC8B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BC71FC88247C10A400AC8B9B /* SimonSaysSwipeGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BC71FC89247C10A400AC8B9B /* SimonSaysSwipeGame.xcdatamodel */,
+			);
+			currentVersion = BC71FC89247C10A400AC8B9B /* SimonSaysSwipeGame.xcdatamodel */;
+			path = SimonSaysSwipeGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BC71FC71247C10A400AC8B9B /* Project object */;
+}
